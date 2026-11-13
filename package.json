@@ -1,0 +1,14 @@
+{
+  "name": "vitest-wdio-traceview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:no-trace-view": "vitest run --config vitest.no-trace-view.config.js"
+  },
+  "devDependencies": {
+    "@vitest/browser-webdriverio": "5.0.0",
+    "vitest": "5.1.0",
+    "webdriverio": "9.33.1"
+  }
+}
